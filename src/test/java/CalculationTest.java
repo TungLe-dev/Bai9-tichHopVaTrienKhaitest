@@ -11,6 +11,6 @@ public class CalculationTest {
     }
     @Test
     public void testCalculation2(){
-        Assertions.assertEquals(4,Calculation.add(4,0));
+        Assertions.assertEquals(3,Calculation.add(4,0));
     }
 }

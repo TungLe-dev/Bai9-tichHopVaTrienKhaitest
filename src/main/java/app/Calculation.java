@@ -1,15 +1,18 @@
 package app;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class Calculation {
     private static final Logger logger = LoggerFactory.getLogger(Calculation.class);
-    public static int add(int a,int b){
-        logger.info("Adding a = {}, b = {}",a,b);
+
+    public static int add(int a, int b){
+        logger.info("Adding a = {}, b = {}", a, b);
         int res = a + b;
         logger.info("Res = {}", res);
         return res;
     }
+
     public static int subtract(int a,int b){
         logger.info("Subtracting a = {}, b = {}",a,b);
         int res = a - b;
